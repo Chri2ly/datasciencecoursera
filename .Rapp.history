@@ -1,0 +1,8 @@
+source("pollutantmean.R")
+getwd()
+setwe("/Users/christiaankusters/datasciencecoursera")
+setwd("/Users/christiaankusters/datasciencecoursera")
+getwd()
+source("pollutantmean.R)
+mean(c(5,6,7))
+mean(5,6)

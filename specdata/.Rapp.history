@@ -1,0 +1,9 @@
+getwd()
+setwd("/Users/christiaankusters/datasciencecoursera/specdata")
+files <- (Sys.glob(".csv"))
+listOfFiles <- lapply(files, function(x) read.table(x, header = FALSE))
+listOfFiles
+> files <- (Sys.glob("*.csv"))
+files <- (Sys.glob("*.csv"))
+listOfFiles <- lapply(files, function(x) read.table(x, header = FALSE))
+listOfFiles
